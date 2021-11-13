@@ -32,7 +32,7 @@ public class CashbackHackServiceTestJ4 {
         int payment = 1000;
 
         int actual = service.remain(payment);
-        int expected = 0;
+        int expected = 1000;
         assertEquals(actual, expected);
 
     }
