@@ -1,10 +1,11 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class CashbackHackServiceTestJ4 {
+class CashbackHackServiceTestJupiter {
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void shouldTestRemainFrom0() {
         CashbackHackService service = new CashbackHackService();
         int payment = 0;
@@ -15,7 +16,7 @@ public class CashbackHackServiceTestJ4 {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void shouldTestRemainFrom1() {
         CashbackHackService service = new CashbackHackService();
         int payment = 1;
