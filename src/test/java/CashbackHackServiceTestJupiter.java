@@ -1,8 +1,9 @@
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.testng.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class CashbackHackServiceTest {
+class CashbackHackServiceTestJupiter {
 
     @Test
     public void shouldTestRemainFrom0() {
@@ -35,18 +36,6 @@ public class CashbackHackServiceTest {
 
         int actual = service.remain(payment);
         int expected = 1000;
-        assertEquals(actual, expected);
-
-    }
-
-
-    @Test
-    public void shouldTestRemainFrom500() {
-        CashbackHackService service = new CashbackHackService();
-        int payment = 500;
-
-        int actual = service.remain(payment);
-        int expected = 500;
         assertEquals(actual, expected);
 
     }
