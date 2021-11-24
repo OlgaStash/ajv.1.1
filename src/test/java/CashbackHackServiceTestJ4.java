@@ -40,14 +40,14 @@ public class CashbackHackServiceTestJ4 {
     }
 
 
-//    @Test
-//    public void shouldTestRemainFrom500() {
-//        CashbackHackService service = new CashbackHackService();
-//        int payment = 500;
-//
-//        int actual = service.remain(payment);
-//        int expected = 500;
-//        assertEquals(actual, expected);
-//
-//    }
+    @Test
+    public void shouldTestRemainFrom500() {
+        CashbackHackService service = new CashbackHackService();
+        int payment = 500;
+
+        int actual = service.remain(payment);
+        int expected = 500;
+        assertEquals(actual, expected);
+
+    }
 }
