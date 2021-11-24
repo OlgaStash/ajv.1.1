@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CashbackHackServiceTestJupiter {
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void shouldTestRemainFrom0() {
         CashbackHackService service = new CashbackHackService();
         int payment = 0;
@@ -16,7 +16,8 @@ class CashbackHackServiceTestJupiter {
 
     }
 
-    @org.junit.jupiter.api.Test
+
+    @Test
     public void shouldTestRemainFrom1() {
         CashbackHackService service = new CashbackHackService();
         int payment = 1;
@@ -26,6 +27,7 @@ class CashbackHackServiceTestJupiter {
         assertEquals(actual, expected);
 
     }
+
 
     @Test
     public void shouldTestRemainFrom1000() {
