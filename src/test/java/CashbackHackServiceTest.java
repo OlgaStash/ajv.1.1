@@ -39,6 +39,7 @@ public class CashbackHackServiceTest {
 
     }
 
+
     @Test
     public void shouldTestRemainFrom500() {
         CashbackHackService service = new CashbackHackService();
