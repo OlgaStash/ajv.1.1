@@ -15,6 +15,7 @@ public class CashbackHackServiceTest {
 
     }
 
+
     @Test
     public void shouldTestRemainFrom1() {
         CashbackHackService service = new CashbackHackService();
@@ -26,6 +27,7 @@ public class CashbackHackServiceTest {
 
     }
 
+
     @Test
     public void shouldTestRemainFrom1000() {
         CashbackHackService service = new CashbackHackService();
@@ -36,6 +38,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
 
     }
+
 
     @Test
     public void shouldTestRemainFrom500() {
